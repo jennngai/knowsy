@@ -1,1 +1,2 @@
 # knowsy
+Social Shopping App
