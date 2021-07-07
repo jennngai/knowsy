@@ -16,3 +16,6 @@ const db = require('../database');
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`)
 })
+// Vendor post request
+const vendor = require('./vendorPost.js');
+app.post('/purchases', vendor.postAPurchase);
