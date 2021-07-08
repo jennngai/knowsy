@@ -1,11 +1,11 @@
 const db = require('./index.js');
 
 module.exports.postAPurchase = postAPurchase = (purchase, callback) => {
-  let { product_name, product_url, vendor, purchase_date, purchase_price, purchaser_email, purchaser_name } = purchase;
+  let { product_name, product_url, product_image, vendor, purchase_date, purchase_price, purchaser_email, purchaser_name } = purchase;
 
   let sqlString = `
-    INSERT INTO purchase (product_name, product_url, vendor, purchase_date, purchase_price, purchaser_email, purchaser_name)
-    VALUES (?, ?, ?, ?, ?, ?, ?)`;
+    INSERT INTO purchase (product_name, product_url, product_image, vendor, purchase_date, purchase_price, purchaser_email, purchaser_name)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?)`;
 
   db.query(sqlString, [product_name, product_url, vendor, purchase_date, purchase_price, purchaser_email, purchaser_name], (err, data) => {
     if (err) {

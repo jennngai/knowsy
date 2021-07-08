@@ -18,6 +18,7 @@ CREATE TABLE purchase (
   id INTEGER PRIMARY KEY AUTO_INCREMENT NOT NULL,
   product_name VARCHAR(100) NOT NULL,
   product_url VARCHAR(1000) NOT NULL,
+  product_image VARCHAR(1000) NOT NULL,
   vendor VARCHAR(50) NOT NULL,
   purchase_date DATETIME NOT NULL,
   purchase_price DECIMAL NOT NULL,

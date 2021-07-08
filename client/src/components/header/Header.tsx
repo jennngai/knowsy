@@ -2,9 +2,14 @@ import React, { useState } from 'react';
 
 const Header: React.FC = () => {
   return (
-    <h1>
-     Hi, Rae, welcome back!
-    </h1>
+    <h3>
+      <div>
+        Hi, Rae.
+      </div>
+      <div>
+        Welcome back!
+      </div>
+    </h3>
   );
 }
 
