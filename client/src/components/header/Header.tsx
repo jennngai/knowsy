@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <h1>
-     Hello, welcome back!
+     Hi, Rae, welcome back!
     </h1>
   );
 }

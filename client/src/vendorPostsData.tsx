@@ -5,7 +5,8 @@ let postData = [
     "vendor": "Amazon",
     "purchase_date": "2021-07-04 10:51:15",
     "purchase_price": "108.99",
-    "user_email": "canadagirl@test.com"
+    "purchaser_email": "canadagirl@test.com",
+    "purchaser_name": "Jill Canuck"
   },
   {
     "product_name": "Hardcore Carnivore Black: charcoal seasoning for steak, beef and BBQ (Large Shaker)",
@@ -13,7 +14,8 @@ let postData = [
     "vendor": "Amazon",
     "purchase_date": "2021-04-21 22:14:09",
     "purchase_price": "14.99",
-    "user_email": "spicegirls@bands.com"
+    "purchaser_email": "spicegirls@bands.com",
+    "purchaser_name": "Sporty Spice"
   },
   {
     "product_name": "Anova Culinary Sous Vide Precision Cooker Nano | Bluetooth | 750W | Anova App Included",
@@ -21,6 +23,7 @@ let postData = [
     "vendor": "Amazon",
     "purchase_date": "2021-07-07 09:02:49",
     "purchase_price": "127.99",
-    "user_email": "gordan@ramsayrestaurants.com"
+    "purchaser_email": "gordan@ramsayrestaurants.com",
+    "purchaser_name": "Gordan Ramsay"
   },
 ];
