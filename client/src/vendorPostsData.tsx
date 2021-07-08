@@ -2,7 +2,7 @@ let postData = [
   {
     "product_name": "Coway Airmega 400 Smart Air Purifier with 1,560 sq. ft. Coverage",
     "product_url": "https://www.amazon.com/AIRMEGA-Smarter-Purifier-Covers-1560/dp/B01C9RIACG/ref=sr_1_4?dchild=1&keywords=air+purifier+coway&qid=1625691433&s=home-garden&sr=1-4",
-    "product_image": "",
+    "product_image": "/Users/jennngai/knowsy/vendor/CowayAirPurifier.jpg",
     "vendor": "Amazon",
     "purchase_date": "2021-07-04 10:51:15",
     "purchase_price": "108.99",
@@ -12,7 +12,7 @@ let postData = [
   {
     "product_name": "Hardcore Carnivore Black: charcoal seasoning for steak, beef and BBQ (Large Shaker)",
     "product_url": "https://www.amazon.com/Hardcore-Carnivore-Black-charcoal-seasoning/dp/B08D8Q4KQX/ref=sr_1_2?crid=3A34V7CGUK2J6&dchild=1&keywords=hardcores+carnivore+black&qid=1625710755&sprefix=hardcore+car%2Caps%2C222&sr=8-2",
-    "product_image": "/Users/jennngai/knowsy/vendor/hardcoreCarnivore.jpg"
+    "product_image": "/Users/jennngai/knowsy/vendor/hardcoreCarnivore.jpg",
     "vendor": "Amazon",
     "purchase_date": "2021-04-21 22:14:09",
     "purchase_price": "14.99",

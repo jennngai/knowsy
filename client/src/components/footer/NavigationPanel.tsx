@@ -1,6 +1,8 @@
 import React from 'react';
-import Home from '/Users/jennngai/knowsy/icons/homeIconWhite.svg';
-import Chat from '/Users/jennngai/knowsy/icons/messageIconWhite.svg';
+import Home from '../../../../icons/homeIconWhite.svg';
+import Chat from '../../../../icons/messageIconWhite.svg';
+
+
 import styled from 'styled-components';
 
 const NavigationBar = styled.div`
@@ -11,12 +13,16 @@ const NavigationBar = styled.div`
   border: pink solid 1px;
   radius: 5px;
 `
+const NavigationIcon = styled.div`
+  padding-left: 100px;
+`
+
 
 const NavigationPanel: React.FC = () => {
   return (
     <NavigationBar>
-    <img src={Home} />
-    <img src={Chat} />
+      <img src={Home} />
+      <NavigationIcon><img src={Chat} /></NavigationIcon>
     </NavigationBar>
 
   );

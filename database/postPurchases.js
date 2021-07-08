@@ -7,7 +7,7 @@ module.exports.postAPurchase = postAPurchase = (purchase, callback) => {
     INSERT INTO purchase (product_name, product_url, product_image, vendor, purchase_date, purchase_price, purchaser_email, purchaser_name)
     VALUES (?, ?, ?, ?, ?, ?, ?, ?)`;
 
-  db.query(sqlString, [product_name, product_url, vendor, purchase_date, purchase_price, purchaser_email, purchaser_name], (err, data) => {
+  db.query(sqlString, [product_name, product_url, product_image, vendor, purchase_date, purchase_price, purchaser_email, purchaser_name], (err, data) => {
     if (err) {
       callback(err)
     } else {
