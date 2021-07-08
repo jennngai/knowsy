@@ -28,7 +28,8 @@ let Colors = {
   "NavyBlue": '#243554',
   "Magenta": '#ff6192',
   "LightGrey": '#c2c7d7',
-  "DarkGrey": '#aeb1be'
+  "DarkGrey": '#aeb1be',
+  "lightBlue": '#eff1ff',
  }
 
 const App: React.FC = () => {

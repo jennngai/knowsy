@@ -1,3 +1,5 @@
 node_modules
 features.ts
 ./client/src/vendorPostsData.tsx
+config.js
+schema.sql
