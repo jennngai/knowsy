@@ -19,3 +19,6 @@ app.listen(port, () => {
 // Vendor post request
 const vendor = require('./vendorPost.js');
 app.post('/purchases', vendor.postAPurchase);
+
+const getPurchases = require('./getPurchases.js');
+app.get('/purchases', getPurchases.getAllPurchases);
