@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Header = styled.div`
   font-family: 'Merienda One', cursive;
   color: #ff6192;
-  font-size: 3em;
+  font-size: 4em;
   padding: 5px;
 `
 

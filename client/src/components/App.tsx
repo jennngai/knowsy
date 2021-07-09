@@ -4,7 +4,6 @@ import styled from 'styled-components';
 import Header from './header/Header.tsx';
 import KnowsyHeader from './header/KnowsyHeader.tsx';
 import PurchaseData from './feed/PurchaseData.tsx';
-import PurchaseDetails from './feed/PurchaseDetails.tsx';
 import NavigationPanel from './footer/NavigationPanel.tsx';
 
 const Container = styled.div`
