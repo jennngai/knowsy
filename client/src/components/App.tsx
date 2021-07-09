@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-//import '../../client/dist/fonts.css';
 import Header from './header/Header.tsx';
 import KnowsyHeader from './header/KnowsyHeader.tsx';
 import PurchaseData from './feed/PurchaseData.tsx';

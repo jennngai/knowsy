@@ -3,7 +3,6 @@ const twilio = require ('../helpers/twilio.js');
 
 module.exports = {
   postAPurchase: (req, res) => {
-    console.log('req.body', req.body);
     models.postAPurchase(req.body, (err, purchase) => {
       if (err) {
         res.status(400).send(err);

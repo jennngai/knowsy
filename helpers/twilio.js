@@ -14,7 +14,7 @@ let sendMessageToUser = (message, thingToCallAfterMessageIsSent) => {
     method: 'post',
     url: `https://api.twilio.com/2010-04-01/Accounts/${config.USERNAME}/Messages.json`,
     headers: {
-      'Authorization': `${config.EDITEDTOKEN}`,
+      'Authorization': 'Basic ' + Buffer.from(`${config.USERNAME}:${config.TOKEN}`).toString('base64'),
       'Content-Type': 'application/x-www-form-urlencoded'
     },
     data : data
