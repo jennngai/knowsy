@@ -10,6 +10,7 @@ const PurchaseDetailsContainer = styled.div`
   align-items: center;
   border-radius: 15px;
   border: pink solid 1px;
+  z-index: 1;
 
   &:hover {
     background-color: #eff1ff;
@@ -37,6 +38,7 @@ const ProductThumbnail = styled.div`
   border: 1px solid pink;
   border-radius: 50px;
   position: relative;
+  z-index: 1;
 `;
 
 const ProductName = styled.div`

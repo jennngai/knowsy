@@ -7,7 +7,7 @@ const Header: React.FC = () => {
         Hi, Rae.
       </div>
       <div>
-        Welcome back!
+        Welcome back! What did you buy today?
       </div>
     </h3>
   );

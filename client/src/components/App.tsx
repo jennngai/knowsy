@@ -4,13 +4,14 @@ import Header from './header/Header.tsx';
 import KnowsyHeader from './header/KnowsyHeader.tsx';
 import PurchaseData from './feed/PurchaseData.tsx';
 import NavigationPanel from './footer/NavigationPanel.tsx';
+import PurchaseDummyData from '/Users/jennngai/knowsy/client/src/PurchaseDummyData.tsx';
+import ProductSearchBar from './product-search/ProductSearchBar.tsx';
 
 const Container = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: green solid 1px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #243554;
 `
@@ -18,7 +19,8 @@ const Container = styled.div`
 const Box = styled.div`
   padding: 30px;
   width: 400px;
-  border: blue solid 1px;
+  border: #243554 solid 1px;
+  border-radius: 15px;
   position: relative;
 `
 
@@ -36,6 +38,7 @@ const App: React.FC = () => {
       <Box>
         <KnowsyHeader />
         <Header />
+        <ProductSearchBar placeholder="Find a Product..." purchaseData={PurchaseDummyData}/>
         <PurchaseData />
         <NavigationPanel />
       </Box>
