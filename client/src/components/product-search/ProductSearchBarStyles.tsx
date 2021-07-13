@@ -6,7 +6,7 @@ export const SearchOuterContainer = styled.div`
 
 export const Search = styled.div`
   border: #243554 1px solid;
-  border-radius: 20px;
+  border-radius: 30px;
   font-size: 18px;
   padding: 15px;
   height: 20px;
@@ -15,13 +15,16 @@ export const Search = styled.div`
 
 export const SearchInput = styled.input`
   border: none;
-  padding: 15px;
-  height: 20px;
+  padding: 10px;
+  height: 10px;
   width: 300px;
+  font-color: #243554;
 `
 
 export const DataResult = styled.div`
-  margin-top: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   width: 300px;
   height: 200px;
   background-color: white;
